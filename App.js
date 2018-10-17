@@ -22,6 +22,7 @@ const instructions = Platform.select({
 import Login from './app/components/Login';
 import Home from './app/components/Home';
 import P5m from './app/components/P5m';
+import Complain from './app/components/Complain';
 
 const AppNavigator = StackNavigator({
   LoginScreen: {
@@ -32,6 +33,9 @@ const AppNavigator = StackNavigator({
   },
   P5mScreen: {
     screen: P5m
+  },
+  ComplainScreen: {
+    screen: Complain
   }
 },
 {

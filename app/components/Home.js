@@ -41,13 +41,13 @@ return (
             <Row>
                 <Col style={styles.textCenter}>
                 <Button success bordered rounded style={styles.btnMenu} onPress={() => this.props.navigation.navigate('P5mScreen')}>
-                    <Icon type="FontAwesome" name="home" />
+                    <Icon type="FontAwesome" name="users" />
                 </Button>
                 <Text style={styles.textMenu}>P5M</Text>
                 </Col>
                 <Col style={styles.textCenter}>
-                <Button danger bordered rounded style={styles.btnMenu}>
-                    <Icon type="FontAwesome" name="home" />
+                <Button danger bordered rounded style={styles.btnMenu} onPress={() => this.props.navigation.navigate('ComplainScreen')}>
+                    <Icon type="FontAwesome" name="exclamation-circle" />
                 </Button>
                 <Text style={styles.textMenu}>Complain</Text>
                 </Col>
