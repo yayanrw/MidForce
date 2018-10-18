@@ -93,11 +93,9 @@ export default class P5m extends Component {
 
               <View style={{ flex: 1 }}>
                 <Fab
-                  active={this.state.active}
-                  direction="up"
-                  containerStyle={{}}
                   style={{ backgroundColor: "#5067FF" }}
                   position="bottomRight"
+                  onPress={() => this.props.navigation.navigate('ScanP5mScreen')}
                 >
                   <Icon type="FontAwesome" name="qrcode" />
                 </Fab>

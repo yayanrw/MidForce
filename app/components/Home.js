@@ -47,7 +47,7 @@ return (
                 </Col>
                 <Col style={styles.textCenter}>
                 <Button danger bordered rounded style={styles.btnMenu} onPress={() => this.props.navigation.navigate('ComplainScreen')}>
-                    <Icon type="FontAwesome" name="exclamation-circle" />
+                    <Icon small type="FontAwesome" name="exclamation-circle" />
                 </Button>
                 <Text style={styles.textMenu}>Complain</Text>
                 </Col>
